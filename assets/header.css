@@ -1,0 +1,44 @@
+header{
+    background-color: #ffffffe8;
+    padding: 12px 0px 15px 0px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header img{
+ width: 200px;
+ margin-bottom: 20px;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 2px;
+    
+}
+
+header nav li{
+    background-color: rgb(255, 106, 0);
+    padding: 2px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 1px black;
+    
+}
+
+header nav a{
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+
+}

@@ -1,0 +1,39 @@
+main{
+    margin-top: 155px;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+ 
+}
+
+main #img-avaliacao{
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+main span{
+    letter-spacing: 1px;
+    color: red;
+    line-height: 25px;
+    
+}
+
+main a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+}
+
+main ul{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    list-style: none;
+}
+
+main li img{
+    border-radius: 20px;
+}
